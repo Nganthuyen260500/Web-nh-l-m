@@ -1,0 +1,48 @@
+/* PC */
+@media(min-width:1024px){
+}
+
+/* TALET */
+@media(min-width:740px)and(max-width:1023){
+    
+}
+@media(max-width:740px){
+    #nav > li{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .menu-btn{
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+        width: 100%;
+    }
+    #nav .subnav a{
+        color:#fff !important;
+    }
+    #slider .text-description {
+        font-size: 20px;
+    }
+    #slider .text-content{
+        bottom: 30px;}
+    #content .places-item,
+     #content .content-section .menber-item{
+            width: 100%;
+            margin-top: 35px;
+        }
+        .contact-container .contact-half ,
+        .contact-container {
+            width: 100%;}
+}
+@media(max-width:800px){
+    #content .content-section{
+        width: 100% ;
+    }
+}
